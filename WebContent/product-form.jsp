@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -55,19 +54,19 @@
 				<fieldset class="form-group">
 					<label>Brand</label> <input type="text"
 						value="<c:out value='${product.brand}' />" class="form-control"
-						name="name" required="required">
+						name="brand" required="required">
 				</fieldset>
 
 				<fieldset class="form-group">
 					<label>Name</label> <input type="text"
 						value="<c:out value='${product.name}' />" class="form-control"
-						name="email">
+						name="name" required="required">
 				</fieldset>
 
 				<fieldset class="form-group">
 					<label>Quantity</label> <input type="text"
 						value="<c:out value='${product.quantity}' />" class="form-control"
-						name="country">
+						name="quantity" required="required">
 				</fieldset>
 
 				<button type="submit" class="btn btn-success">Save</button>
